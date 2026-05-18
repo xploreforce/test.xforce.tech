@@ -1,0 +1,18 @@
+export default {
+	PRICING_TITLE: '订阅价格',
+	PRICING_UNIT: '¥',
+	PRICING_MONTH_PERSONAL: '月度订阅（个人版）',
+	PRICING_MONTH_PERSONAL_PRICE: '16.5',
+	PRICING_YEAR_PERSONAL: '年度订阅（个人版）',
+	PRICING_YEAR_PERSONAL_PRICE: '169',
+	PRICING_YEAR_BUSINESS: '年度订阅（企业版）',
+	PRICING_YEAR_BUSINESS_PRICE: '399',
+	PRICING_BUY: '立即购买',
+	PRICING_FEATURES: {
+		FLEXIBLE_PAYMENT: '灵活的付款方式',
+		LATEST_UPDATES: '实时获取最新版本',
+		LOW_COST: '低门槛入门',
+		COST_REDUCTION: '长期使用更优惠',
+		COMMERCIAL_USE: '可用于商业项目',
+	},
+};

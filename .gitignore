@@ -1,0 +1,16 @@
+# Path
+node_modules
+dist
+
+# File
+yarn.lock
+.yarn
+.DS_Store
+
+# Filter file format
+*.log*
+*.pnp*
+.pnp.*
+
+# Editor document files
+.~*.*
