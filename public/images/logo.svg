@@ -1,0 +1,5 @@
+<svg width="140" height="36" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 28L14 8L24 28" stroke="#555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 28L22 8L32 28" stroke="#E53935" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="24" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#e5e5e5">X-Force Kit</text>
+</svg>

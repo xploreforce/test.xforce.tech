@@ -29,6 +29,8 @@ X-Force Kit 是一款强大的服务器聚合终端管理工具。支持 SSH 远
 
 XForce Tech 是一支专注于网络技术与安全研究的技术团队。我们致力于通过技术创新，为用户提供高品质的网络工具与解决方案。
 
+🌐 官网：https://test.xforce.tech
+
 ---
 
 <details>
@@ -55,7 +57,15 @@ npm run dev
 
 1. 进入仓库 **Settings** > **Pages**
 2. "Build and deployment" 下的 **Source** 选择 **GitHub Actions**
-3. 推送代码到 `main` 分支，Actions 自动触发编译和部署
-4. （可选）在 Pages 设置中配置 **Custom domain**，同时在项目 `public/` 目录下添加 `CNAME` 文件
+3. 在 **Custom domain** 中填入 `test.xforce.tech`，点击 Save
+4. 推送代码到 `main` 分支，Actions 自动触发编译和部署
+
+#### DNS 配置
+
+在域名服务商处添加 CNAME 记录：
+
+| 类型 | 主机记录 | 记录值 |
+|------|----------|--------|
+| CNAME | test | xploreforce.github.io |
 
 </details>

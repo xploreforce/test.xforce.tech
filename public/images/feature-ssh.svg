@@ -1,0 +1,25 @@
+<svg width="600" height="360" viewBox="0 0 600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="360" rx="8" fill="#111"/>
+  <rect x="0" y="0" width="600" height="32" rx="8" fill="#1e1e1e"/>
+  <circle cx="18" cy="16" r="5" fill="#E53935"/>
+  <circle cx="34" cy="16" r="5" fill="#555"/>
+  <circle cx="50" cy="16" r="5" fill="#555"/>
+  <rect x="200" y="10" width="200" height="12" rx="6" fill="#151515"/>
+
+  <text x="24" y="64" font-family="monospace" font-size="13" fill="#E53935">~$</text>
+  <text x="48" y="64" font-family="monospace" font-size="13" fill="#e5e5e5">ssh -L 3306:db:3306 admin@server</text>
+  <text x="24" y="88" font-family="monospace" font-size="13" fill="#4caf50">Tunnel established on port 3306</text>
+  <text x="24" y="116" font-family="monospace" font-size="13" fill="#E53935">~$</text>
+  <text x="48" y="116" font-family="monospace" font-size="13" fill="#e5e5e5">ssh -D 1080 proxy@gateway</text>
+  <text x="24" y="140" font-family="monospace" font-size="13" fill="#4caf50">SOCKS proxy listening on 127.0.0.1:1080</text>
+  <text x="24" y="168" font-family="monospace" font-size="13" fill="#E53935">~$</text>
+  <text x="48" y="168" font-family="monospace" font-size="13" fill="#e5e5e5">uptime</text>
+  <text x="24" y="192" font-family="monospace" font-size="13" fill="#a6a6a6">14:32:01 up 128 days, load: 0.12, 0.08, 0.05</text>
+  <text x="24" y="220" font-family="monospace" font-size="13" fill="#E53935">~$</text>
+  <rect x="48" y="209" width="8" height="16" fill="#E53935" opacity="0.8"/>
+
+  <rect x="24" y="260" width="552" height="1" fill="#333"/>
+  <text x="24" y="284" font-family="Inter, sans-serif" font-size="11" fill="#555">2 active sessions</text>
+  <text x="200" y="284" font-family="Inter, sans-serif" font-size="11" fill="#555">Latency: 12ms</text>
+  <text x="400" y="284" font-family="Inter, sans-serif" font-size="11" fill="#4caf50">Ï Connected</text>
+</svg>

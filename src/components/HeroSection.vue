@@ -1,74 +1,58 @@
 <script setup>
-import { useI18n } from 'vue-i18n';
-
-const { t } = useI18n();
-
-defineEmits(['download']);
+const emit = defineEmits(["download"]);
 </script>
 
 <template>
-	<div class="hero-section">
-		<div class="about">
-			<div class="title">
-				<div class="app-icon">
-					<img src="/images/app_icon.png" />
-				</div>
-				<div>
-					<h1 class="app-name">X-Force Kit</h1>
-					<h2 class="slogan">{{ t('SLOGAN') }}</h2>
-				</div>
-			</div>
-			<div class="introduce">{{ t('INTRODUCE') }}</div>
-		</div>
-		<div class="btn-box">
-			<div>
-				<div class="btn btn-1" @click="$emit('download')">
-					{{ t('DOWNLOAD_BTN') }}
-				</div>
-			</div>
-			<div>
-				<a class="btn btn-2" href="#pricing">
-					{{ t('BUY_BTN') }}
-				</a>
-			</div>
-		</div>
-	</div>
-</template>
+	<section class="hero-center-section">
+		<div class="container">
+			<div class="hero-center-wrap">
+				<h1 class="hero-center-title">
+					Seamless
+					<span class="primary-span">Connections,</span> Complete
+					Control
+				</h1>
 
-<style lang="less" scoped>
-.hero-section {
-	color: #fff;
-	.about {
-		.title {
-			display: flex;
-			align-items: center;
-			margin-bottom: 25px;
-			.app-icon {
-				padding-right: 20px;
-				img {
-					width: 88px;
-				}
-			}
-			.app-name {
-				margin-bottom: 5px;
-			}
-			.slogan {
-				font-size: 20px;
-			}
-		}
-		.introduce {
-			line-height: 22px;
-			margin-bottom: 15px;
-		}
-	}
-	.btn-box {
-		display: flex;
-		margin: 0 -5px;
-		.btn {
-			margin: 5px;
-			width: 195px;
-			text-align: center;
-		}
-	}
-}
-</style>
+				<p class="hero-center-description">
+					X-Force Kit is a powerful all-in-one server management
+					terminal. Manage SSH connections, transfer files via
+					FTP/SFTP, and visualize your databases — all from a single,
+					unified interface.
+				</p>
+
+				<div class="hero-center-button-wrap">
+					<a
+						href="#"
+						class="button-primary"
+						@click.prevent="emit('download')"
+					>
+						<span>Free Download</span>
+						<svg
+							class="button-arrow-icon"
+							viewBox="0 0 20 20"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M4 10h12m0 0l-4-4m4 4l-4 4"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</a>
+					<div class="note">*Available for macOS and Windows</div>
+				</div>
+
+				<div class="hero-center-image-wrapper">
+					<div class="hero-center-image-wrap">
+						<img
+							src="/images/hero-dashboard.svg"
+							alt="X-Force Kit Dashboard"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>

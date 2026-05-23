@@ -1,0 +1,50 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="520" rx="12" fill="#1e1e1e"/>
+  <rect x="0" y="0" width="900" height="40" rx="12" fill="#151515"/>
+  <circle cx="24" cy="20" r="6" fill="#E53935"/>
+  <circle cx="44" cy="20" r="6" fill="#555"/>
+  <circle cx="64" cy="20" r="6" fill="#555"/>
+  <rect x="200" y="12" width="500" height="16" rx="8" fill="#111"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="40" width="200" height="480" fill="#151515"/>
+  <rect x="16" y="60" width="168" height="32" rx="6" fill="#E53935" opacity="0.15"/>
+  <rect x="32" y="72" width="80" height="8" rx="4" fill="#E53935"/>
+  <rect x="16" y="108" width="168" height="28" rx="6" fill="transparent"/>
+  <rect x="32" y="118" width="100" height="8" rx="4" fill="#555"/>
+  <rect x="16" y="148" width="168" height="28" rx="6" fill="transparent"/>
+  <rect x="32" y="158" width="90" height="8" rx="4" fill="#555"/>
+  <rect x="16" y="188" width="168" height="28" rx="6" fill="transparent"/>
+  <rect x="32" y="198" width="110" height="8" rx="4" fill="#555"/>
+
+  <!-- Terminal area -->
+  <rect x="220" y="60" width="660" height="300" rx="8" fill="#111"/>
+  <text x="240" y="90" font-family="monospace" font-size="13" fill="#E53935">$</text>
+  <text x="258" y="90" font-family="monospace" font-size="13" fill="#a6a6a6">ssh user@192.168.1.100</text>
+  <text x="240" y="115" font-family="monospace" font-size="13" fill="#4caf50">Connected to server</text>
+  <text x="240" y="140" font-family="monospace" font-size="13" fill="#a6a6a6">Last login: Mon May 19 08:30:12 2026</text>
+  <text x="240" y="170" font-family="monospace" font-size="13" fill="#E53935">$</text>
+  <text x="258" y="170" font-family="monospace" font-size="13" fill="#a6a6a6">ls -la /var/www</text>
+  <text x="240" y="195" font-family="monospace" font-size="13" fill="#a6a6a6">drwxr-xr-x  5 www-data  4096 May 19 app/</text>
+  <text x="240" y="215" font-family="monospace" font-size="13" fill="#a6a6a6">drwxr-xr-x  3 www-data  4096 May 18 logs/</text>
+  <text x="240" y="235" font-family="monospace" font-size="13" fill="#a6a6a6">-rw-r--r--  1 www-data  2048 May 17 config.yml</text>
+  <text x="240" y="265" font-family="monospace" font-size="13" fill="#E53935">$</text>
+  <rect x="258" y="254" width="8" height="16" fill="#E53935" opacity="0.8"/>
+
+  <!-- Bottom panels -->
+  <rect x="220" y="380" width="320" height="120" rx="8" fill="#111"/>
+  <rect x="236" y="396" width="80" height="10" rx="4" fill="#555"/>
+  <rect x="236" y="416" width="288" height="8" rx="4" fill="#333"/>
+  <rect x="236" y="416" width="200" height="8" rx="4" fill="#E53935" opacity="0.5"/>
+  <rect x="236" y="436" width="288" height="8" rx="4" fill="#333"/>
+  <rect x="236" y="436" width="150" height="8" rx="4" fill="#4caf50" opacity="0.5"/>
+  <rect x="236" y="456" width="288" height="8" rx="4" fill="#333"/>
+  <rect x="236" y="456" width="240" height="8" rx="4" fill="#2196f3" opacity="0.5"/>
+
+  <rect x="560" y="380" width="320" height="120" rx="8" fill="#111"/>
+  <rect x="576" y="396" width="100" height="10" rx="4" fill="#555"/>
+  <rect x="576" y="420" width="60" height="24" rx="4" fill="#E53935" opacity="0.2"/>
+  <rect x="648" y="420" width="60" height="24" rx="4" fill="#333"/>
+  <rect x="720" y="420" width="60" height="24" rx="4" fill="#333"/>
+  <rect x="576" y="456" width="288" height="8" rx="4" fill="#333"/>
+</svg>
